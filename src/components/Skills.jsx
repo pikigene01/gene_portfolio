@@ -12,15 +12,15 @@ export default function Skills() {
                   My <span>Skill</span>
                 </h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Magnam odio vel, doloremque dignissimos, doloribus esse ullam.
-                  Voluptatibus, veritatis quas. Incidunt deserunt eius harum a
-                  dolorem. Debitis, optio. Magnam cupiditate, adipisci?
+                  Looking to utilize broad knowledge of programming, software
+                  engineering lifecycle, and data management to perform
+                  programming and software development using various programming
+                  languages and related tools and frameworks to solve clients’
+                  business problems as a Programmer.
                 </p>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Magnam odio vel, doloremque dignissimos, doloribus esse ullam.
-                  Voluptatibus, veritatis quas. Incidunt deserunt eius harum
+                  Offering critical thinking and strong interpersonal skills,
+                  plus more than 4 years of freelance programmer experience.
                 </p>
               </div>
             </div>
@@ -46,6 +46,34 @@ export default function Skills() {
                   <h6>AngularJS</h6>
                   <div className="bar">
                     <span className="fill" data-width="81%"></span>
+                  </div>
+                  <div className="tip"></div>
+                </div>
+                <div className="skills-item mb-35">
+                  <h6>React JS</h6>
+                  <div className="bar">
+                    <span className="fill" data-width="95%"></span>
+                  </div>
+                  <div className="tip"></div>
+                </div>
+                <div className="skills-item mb-35">
+                  <h6>Vue JS</h6>
+                  <div className="bar">
+                    <span className="fill" data-width="81%"></span>
+                  </div>
+                  <div className="tip"></div>
+                </div>
+                <div className="skills-item mb-35">
+                  <h6>Java</h6>
+                  <div className="bar">
+                    <span className="fill" data-width="50%"></span>
+                  </div>
+                  <div className="tip"></div>
+                </div>
+                <div className="skills-item mb-35">
+                  <h6>Flutter</h6>
+                  <div className="bar">
+                    <span className="fill" data-width="70%"></span>
                   </div>
                   <div className="tip"></div>
                 </div>

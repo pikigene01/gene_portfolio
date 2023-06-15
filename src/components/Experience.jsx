@@ -25,9 +25,8 @@ export default function Experience() {
                   <span className="date">Apr 2015 - Mar 2016</span>
                   <h5 className="title">Software Engineer</h5>
                   <p className="description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam
-                    ac venenatis enim. Aenean hendrerit justo sed.
+                    l started my software engineer work at a young age and l was
+                    that person you can tell loves his work.
                   </p>
                 </div>
               </div>
@@ -38,9 +37,9 @@ export default function Experience() {
                   <span className="date">Apr 2016 - Mar 2017</span>
                   <h5 className="title">Web Developer</h5>
                   <p className="description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam
-                    ac venenatis enim. Aenean hendrerit justo sed.
+                    Built a mobile application that makes it possible for users
+                    to access, rounds, stands investments, and all the other
+                    activities that are done in TBD trust.
                   </p>
                 </div>
               </div>
@@ -51,9 +50,11 @@ export default function Experience() {
                   <span className="date">Apr 2017 - Present</span>
                   <h5 className="title">Frontend Developer</h5>
                   <p className="description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam
-                    ac venenatis enim. Aenean hendrerit justo sed.
+                    Developed a dealer management mobile application for
+                    CoreLogic using Flutter & Flutter-Bloc for State management
+                    followed strict TDD principles, used sonar cube for
+                    monitoring code test coverage, collaborated with more than
+                    30developers on a single projects
                   </p>
                 </div>
               </div>

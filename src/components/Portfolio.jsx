@@ -33,13 +33,13 @@ export default function Portfolio() {
           <div className="row portfolio-section">
             <div className="col-lg-4 col-md-6 item application">
               <div className="portfolio-item">
-                <img src="assets/images/portfolio/img-1.jpg" alt="" />
+                <img src="assets/images/portfolio/img-1.png" alt="" />
                 <div className="item-overlay">
                   <h6>Application</h6>
                   <div className="icons">
                     <span className="icon">
                       <span className="port-link">
-                        <a href="assets/images/portfolio/img-1.jpg">
+                        <a href="assets/images/portfolio/img-1.png">
                           <i className="fa fa-search"></i>
                         </a>
                       </span>

@@ -24,10 +24,10 @@ export default function Services() {
                   <i className="fas fa-paint-brush"></i>
                 </div>
                 <h2>Theme Design</h2>
-                <p>
+                {/* <p>
                   Lorem Ipsum is simply dummy text of the printing and type
                   setting industry when an unknown printer took a galley
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="col-md-4">
@@ -36,10 +36,10 @@ export default function Services() {
                   <i className="fas fa-desktop"></i>
                 </div>
                 <h2>Website Design</h2>
-                <p>
+                {/* <p>
                   Lorem Ipsum is simply dummy text of the printing and type
                   setting industry when an unknown printer took a galley
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="col-md-4">
@@ -48,10 +48,10 @@ export default function Services() {
                   <i className="fas fa-quidditch"></i>
                 </div>
                 <h2>UI/UX Design</h2>
-                <p>
+                {/* <p>
                   Lorem Ipsum is simply dummy text of the printing and type
                   setting industry when an unknown printer took a galley
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="col-md-4">
@@ -60,10 +60,10 @@ export default function Services() {
                   <i className="fas fa-camera"></i>
                 </div>
                 <h2>Graphic Design</h2>
-                <p>
+                {/* <p>
                   Lorem Ipsum is simply dummy text of the printing and type
                   setting industry when an unknown printer took a galley
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="col-md-4">
@@ -71,11 +71,11 @@ export default function Services() {
                 <div className="service-icon">
                   <i className="fas fa-user"></i>
                 </div>
-                <h2>Support</h2>
-                <p>
+                <h2>Wordpress Plugins</h2>
+                {/* <p>
                   Lorem Ipsum is simply dummy text of the printing and type
                   setting industry when an unknown printer took a galley
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="col-md-4">
@@ -83,11 +83,11 @@ export default function Services() {
                 <div className="service-icon">
                   <i className="fab fa-medapps"></i>
                 </div>
-                <h2>SEO Marketing</h2>
-                <p>
+                <h2>App Developement</h2>
+                {/* <p>
                   Lorem Ipsum is simply dummy text of the printing and type
                   setting industry when an unknown printer took a galley
-                </p>
+                </p> */}
               </div>
             </div>
           </div>

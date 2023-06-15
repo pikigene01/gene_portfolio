@@ -1,6 +1,19 @@
-import React from 'react'
+import React, {useState} from 'react'
+import swal from 'sweetalert';
 
 export default function Contact() {
+    const [inputs,setInputs] = useState({
+
+    });
+
+    const contactMe = (e) => {
+        e.preventDefault();
+       swal('Warning', 'something went wrong!!! try send to pikigene01@gmail.com', 'warning');
+       setInputs({...inputs,name:'',email: '', message: ''});
+    }
+    const handleChange = (e)=>{
+        setInputs({...inputs,[e.target.name]:e.target.value});
+    }
   return (
     <div>
 
@@ -20,26 +33,26 @@ export default function Contact() {
                 <div className="row">
                     <div className="col-lg-8">
                         
-                        <form id='contact-form' method='POST'><input type='hidden' name='form-name' value='contactForm' />
+                        <form onSubmit={contactMe} method='POST'><input type='hidden' name='form-name' value='contactForm' />
                             <div className="row">
                                <div className="col-md-6">
                                   <div className="form-group">
-                                     <input type="text" name="name" className="form-control" id="first-name" placeholder="Name *" required="required"/>
+                                     <input onChange={handleChange} value={inputs?.name} type="text" name="name" className="form-control" id="first-name" placeholder="Name *" required="required"/>
                                   </div>
                                </div>
                                <div className="col-md-6">
                                   <div className="form-group">
-                                     <input type="email" name="email" className="form-control" id="email" placeholder="Email *" required="required"/>
+                                     <input onChange={handleChange} value={inputs?.email} type="email" name="email" className="form-control" id="email" placeholder="Email *" required="required"/>
                                   </div>
                                </div>
                                <div className="col-md-12">
                                   <div className="form-group">
-                                       <textarea rows="6" name="message" className="form-control" id="description" placeholder="Message *" required="required"></textarea>
+                                       <textarea onChange={handleChange} value={inputs?.message} rows="6" name="message" className="form-control" id="description" placeholder="Message *" required="required"></textarea>
                                   </div>
                                </div>
                                 <div className="col-md-12 text-center">
                                    
-                                    <button id="contact-submit" className="div-btn">
+                                    <button type='submit' id="contact-submit" className="div-btn">
                                         Send Message
                                     </button>
                                 </div>
@@ -48,7 +61,7 @@ export default function Contact() {
                     </div>
                     <div className="col-lg-4">
                         <div className="contact-info">
-                            <p className="contact-info-title">Lorem Ipsum is simply dummy text of the printing and type setting industry when an unknown printer took a galley of type</p>
+                            <p className="contact-info-title">Gene Piki Contact Details </p>
                             <div className="contact-info-item">
                             <ul>
                                 <li><i className="fas fa-map-marker-alt"></i> No. 61 Melfort Goromonzi</li>
@@ -58,11 +71,11 @@ export default function Contact() {
                             </ul>
                             </div>
                             <div className="social-icons mt-15">
-                                    <a href="#" target='_blank'><i className="fab fa-facebook-f"></i></a>
-                                    <a href="#" target='_blank'><i className="fab fa-linkedin-in"></i></a>
-                                    <a href="#" target='_blank'><i className="fab fa-google-plus-g"> </i></a>
-                                    <a href="#" target='_blank'><i className="fab fa-twitter"></i></a>
-                                    <a href="#" target='_blank'><i className="fab fa-instagram"></i></a>
+                                    <a href="https://facebook.com/pikigene" target='_blank'><i className="fab fa-facebook-f"></i></a>
+                                    <a href="https://linkedin.com/pikigene01" target='_blank'><i className="fab fa-linkedin-in"></i></a>
+                                    <a href="https://github.com/pikigene01" target='_blank'><i className="fab fa-github"> </i></a>
+                                    <a href="https://twitter.com/pikigene" target='_blank'><i className="fab fa-twitter"></i></a>
+                                    <a href="https://instagram.com/pikigene" target='_blank'><i className="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>

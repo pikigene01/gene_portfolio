@@ -15,10 +15,9 @@ export default function About() {
                   <h4> React Developer And Forentend Developer.</h4>
                 </div>
                 <p>
-                  Me <b>Gene</b> Lorem Ipsum is simply dummy text of the
-                  printing and type setting industry when an unknown printer
-                  took a galley of type and scrambled it to make a type specimen
-                  book It has survived not only five centuries.
+                  Me <b>Gene</b> have been working as a software developer since
+                  2015 and I started learning Java as my primary language. I
+                  have more 7 years experience as a freelancer developer.
                 </p>
 
                 <div className="table-responsive">
@@ -57,7 +56,7 @@ export default function About() {
                 </div>
 
                 <span className="about-btn">
-                  <a className="div-btn" download={true} href="#">
+                  <a className="div-btn" download={true} href="assets/cv/cv.docx">
                     Download CV
                   </a>
                   <a className="div-btn" href="mailto:pikigene01@gmail.com">
