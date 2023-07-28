@@ -85,7 +85,7 @@ export default function Portfolio() {
                           <i className="fa fa-search"></i>
                         </a>
                       </span>
-                      <a href="#">
+                      <a target="_blank" href="https://apkpure.com/p/com.pikidelivery.pikideliveryapp">
                         <i className="fas fa-link"></i>
                       </a>
                     </span>
@@ -106,7 +106,7 @@ export default function Portfolio() {
                           <i className="fa fa-search"></i>
                         </a>
                       </span>
-                      <a href="#">
+                      <a target="_blank" href="https://apkpure.com/p/com.pikidelivery.pikideliveryapp">
                         <i className="fas fa-link"></i>
                       </a>
                     </span>
