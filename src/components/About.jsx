@@ -56,7 +56,7 @@ export default function About() {
                 </div>
 
                 <span className="about-btn">
-                  <a className="div-btn" download={true} href="assets/cv/cv.docx">
+                  <a className="div-btn" download={true} href="assets/cv/cv.pdf">
                     Download CV
                   </a>
                   <a className="div-btn" href="mailto:pikigene01@gmail.com">
