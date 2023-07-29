@@ -68,7 +68,7 @@ export default function About() {
             <div className="col-lg-5 col-md-6">
               <div className="about-img">
                 <img
-                  src="assets/images/background/gene.jpg"
+                  src="assets/images/background/gene.png"
                   className="img-fluid"
                   alt=""
                 />
