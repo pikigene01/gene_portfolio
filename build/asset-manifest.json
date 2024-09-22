@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.31d6cfe0.css",
-    "main.js": "/static/js/main.e26db376.js",
-    "index.html": "/index.html",
-    "main.e26db376.js.map": "/static/js/main.e26db376.js.map"
+    "main.css": "/gene_portfolio/static/css/main.31d6cfe0.css",
+    "main.js": "/gene_portfolio/static/js/main.e26db376.js",
+    "index.html": "/gene_portfolio/index.html",
+    "main.e26db376.js.map": "/gene_portfolio/static/js/main.e26db376.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
