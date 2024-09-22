@@ -56,7 +56,7 @@ export default function About() {
                 </div>
 
                 <span className="about-btn">
-                  <a className="div-btn" download={true} href="assets/cv/cv.pdf">
+                  <a className="div-btn" download={true} href="gene_portfolio/assets/cv/cv.pdf">
                     Download CV
                   </a>
                   <a className="div-btn" href="mailto:pikigene01@gmail.com">
@@ -68,7 +68,7 @@ export default function About() {
             <div className="col-lg-5 col-md-6">
               <div className="about-img">
                 <img
-                  src="assets/images/background/gene.png"
+                  src="gene_portfolio/assets/images/background/gene.png"
                   className="img-fluid"
                   alt=""
                 />

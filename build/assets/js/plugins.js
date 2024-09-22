@@ -370,16 +370,16 @@ jQuery(document).ready(function($) {
                 link.attr('href','css/color/' + tp_stylesheet + '.css');
                 $('.style-customizer .styleChange li[data-style="'+tp_stylesheet+'"]').addClass("selected");
                 if ($(".swicher-title-page-dark").length>0) {
-                    document.getElementById("logo_img").src="assets/images/customizer/logo/logo_dark_swicher-title_" + tp_stylesheet + ".png";
+                    document.getElementById("logo_img").src="gene_portfolio/assets/images/customizer/logo/logo_dark_swicher-title_" + tp_stylesheet + ".png";
                 } else {
                     if ($("#logo_img").length>0) {
-                        document.getElementById("logo_img").src="assets/images/customizer/logo/logo_" + tp_stylesheet + ".png";
+                        document.getElementById("logo_img").src="gene_portfolio/assets/images/customizer/logo/logo_" + tp_stylesheet + ".png";
                     };
                     if ($("#logo_dark_img").length>0) {
-                        document.getElementById("logo_dark_img").src="assets/images/customizer/logo/dark/logo_" + tp_stylesheet + ".png";
+                        document.getElementById("logo_dark_img").src="gene_portfolio/assets/images/customizer/logo/dark/logo_" + tp_stylesheet + ".png";
                     };
                     if ($("#logo-footer").length>0) {
-                        document.getElementById("logo-footer").src="assets/images/customizer/logo/logo_" + tp_stylesheet + ".png";
+                        document.getElementById("logo-footer").src="gene_portfolio/assets/images/customizer/logo/logo_" + tp_stylesheet + ".png";
                     };
                 };
              };

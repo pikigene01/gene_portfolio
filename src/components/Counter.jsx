@@ -6,7 +6,7 @@ export default function Counter() {
       <section
         className="counter-area pt-100 pb-100"
         style={{
-          backgroundImage: "url('assets/images/pexels-photo-220067.jpg')",
+          backgroundImage: "url('gene_portfolio/assets/images/pexels-photo-220067.jpg')",
         }}
       >
         <div className="container">
