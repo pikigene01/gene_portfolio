@@ -33,13 +33,16 @@ export default function Portfolio() {
           <div className="row portfolio-section">
             <div className="col-lg-4 col-md-6 item application">
               <div className="portfolio-item">
-                <img src="gene_portfolio/assets/images/portfolio/img-1.png" alt="" />
+                <img
+                  src="/gene_portfolio/assets/images/portfolio/img-1.png"
+                  alt=""
+                />
                 <div className="item-overlay">
                   <h6>Application</h6>
                   <div className="icons">
                     <span className="icon">
                       <span className="port-link">
-                        <a href="gene_portfolio/assets/images/portfolio/img-1.png">
+                        <a href="/gene_portfolio/assets/images/portfolio/img-1.png">
                           <i className="fa fa-search"></i>
                         </a>
                       </span>
@@ -54,13 +57,16 @@ export default function Portfolio() {
 
             <div className="col-lg-4 col-md-6 item design">
               <div className="portfolio-item">
-                <img src="gene_portfolio/assets/images/portfolio/img-2.png" alt="" />
+                <img
+                  src="/gene_portfolio/assets/images/portfolio/img-2.png"
+                  alt=""
+                />
                 <div className="item-overlay">
                   <h6>Web Design</h6>
                   <div className="icons">
                     <span className="icon">
                       <span className="port-link">
-                        <a href="gene_portfolio/assets/images/portfolio/img-2.png">
+                        <a href="/gene_portfolio/assets/images/portfolio/img-2.png">
                           <i className="fa fa-search"></i>
                         </a>
                       </span>
@@ -75,13 +81,16 @@ export default function Portfolio() {
 
             <div className="col-lg-4 col-md-6 item development">
               <div className="portfolio-item">
-                <img src="gene_portfolio/assets/images/portfolio/img-3.jpg" alt="" />
+                <img
+                  src="/gene_portfolio/assets/images/portfolio/img-3.jpg"
+                  alt=""
+                />
                 <div className="item-overlay">
                   <h6>Application</h6>
                   <div className="icons">
                     <span className="icon">
                       <span className="port-link">
-                        <a href="gene_portfolio/assets/images/portfolio/img-3.jpg">
+                        <a href="/gene_portfolio/assets/images/portfolio/img-3.jpg">
                           <i className="fa fa-search"></i>
                         </a>
                       </span>
@@ -99,13 +108,16 @@ export default function Portfolio() {
 
             <div className="col-lg-4 col-md-6 item design development">
               <div className="portfolio-item">
-                <img src="gene_portfolio/assets/images/portfolio/img-4.jpg" alt="" />
+                <img
+                  src="/gene_portfolio/assets/images/portfolio/img-4.jpg"
+                  alt=""
+                />
                 <div className="item-overlay">
                   <h6>Development</h6>
                   <div className="icons">
                     <span className="icon">
                       <span className="port-link">
-                        <a href="gene_portfolio/assets/images/portfolio/img-4.jpg">
+                        <a href="/gene_portfolio/assets/images/portfolio/img-4.jpg">
                           <i className="fa fa-search"></i>
                         </a>
                       </span>
@@ -123,13 +135,16 @@ export default function Portfolio() {
 
             <div className="col-lg-4 col-md-6 item development application">
               <div className="portfolio-item">
-                <img src="gene_portfolio/assets/images/portfolio/img7.webp" alt="" />
+                <img
+                  src="/gene_portfolio/assets/images/portfolio/img7.webp"
+                  alt=""
+                />
                 <div className="item-overlay">
                   <h6>Clear App</h6>
                   <div className="icons">
                     <span className="icon">
                       <span className="port-link">
-                        <a href="gene_portfolio/assets/images/portfolio/img7.webp">
+                        <a href="/gene_portfolio/assets/images/portfolio/img7.webp">
                           <i className="fa fa-search"></i>
                         </a>
                       </span>
@@ -147,13 +162,16 @@ export default function Portfolio() {
 
             <div className="col-lg-4 col-md-6 item application development">
               <div className="portfolio-item">
-                <img src="gene_portfolio/assets/images/portfolio/img8.webp" alt="" />
+                <img
+                  src="/gene_portfolio/assets/images/portfolio/img8.webp"
+                  alt=""
+                />
                 <div className="item-overlay">
                   <h6>Health App</h6>
                   <div className="icons">
                     <span className="icon">
                       <span className="port-link">
-                        <a href="gene_portfolio/assets/images/portfolio/img8.webp">
+                        <a href="/gene_portfolio/assets/images/portfolio/img8.webp">
                           <i className="fa fa-search"></i>
                         </a>
                       </span>
@@ -167,13 +185,16 @@ export default function Portfolio() {
             </div>
             <div className="col-lg-4 col-md-6 item application development">
               <div className="portfolio-item">
-                <img src="gene_portfolio/assets/images/portfolio/img9.webp" alt="" />
+                <img
+                  src="/gene_portfolio/assets/images/portfolio/img9.webp"
+                  alt=""
+                />
                 <div className="item-overlay">
                   <h6>Health App</h6>
                   <div className="icons">
                     <span className="icon">
                       <span className="port-link">
-                        <a href="gene_portfolio/assets/images/portfolio/img9.webp">
+                        <a href="/gene_portfolio/assets/images/portfolio/img9.webp">
                           <i className="fa fa-search"></i>
                         </a>
                       </span>
@@ -190,13 +211,16 @@ export default function Portfolio() {
             </div>
             <div className="col-lg-4 col-md-6 item application development">
               <div className="portfolio-item">
-                <img src="gene_portfolio/assets/images/portfolio/img-6.jpg" alt="" />
+                <img
+                  src="/gene_portfolio/assets/images/portfolio/img-6.jpg"
+                  alt=""
+                />
                 <div className="item-overlay">
                   <h6>Web Design</h6>
                   <div className="icons">
                     <span className="icon">
                       <span className="port-link">
-                        <a href="gene_portfolio/assets/images/portfolio/img-6.jpg">
+                        <a href="/gene_portfolio/assets/images/portfolio/img-6.jpg">
                           <i className="fa fa-search"></i>
                         </a>
                       </span>
@@ -210,13 +234,16 @@ export default function Portfolio() {
             </div>
             <div className="col-lg-4 col-md-6 item application development">
               <div className="portfolio-item">
-                <img src="gene_portfolio/assets/images/portfolio/img-6.jpg" alt="" />
+                <img
+                  src="/gene_portfolio/assets/images/portfolio/img-6.jpg"
+                  alt=""
+                />
                 <div className="item-overlay">
                   <h6>Web Design</h6>
                   <div className="icons">
                     <span className="icon">
                       <span className="port-link">
-                        <a href="gene_portfolio/assets/images/portfolio/img-6.jpg">
+                        <a href="/gene_portfolio/assets/images/portfolio/img-6.jpg">
                           <i className="fa fa-search"></i>
                         </a>
                       </span>
@@ -230,7 +257,10 @@ export default function Portfolio() {
             </div>
             <div className="col-lg-4 col-md-6 item application development">
               <div className="portfolio-item">
-                <img src="gene_portfolio/assets/images/portfolio/img10.webp" alt="" />
+                <img
+                  src="/gene_portfolio/assets/images/portfolio/img10.webp"
+                  alt=""
+                />
                 <div className="item-overlay">
                   <h6>Web Design</h6>
                   <div className="icons">
@@ -238,7 +268,7 @@ export default function Portfolio() {
                       <span className="port-link">
                         <a
                           target="_blank"
-                          href="gene_portfolio/assets/images/portfolio/img10.webp"
+                          href="/gene_portfolio/assets/images/portfolio/img10.webp"
                         >
                           <i className="fa fa-search"></i>
                         </a>
