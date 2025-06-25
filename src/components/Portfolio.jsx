@@ -62,13 +62,13 @@ export default function Portfolio() {
   const legacyApps = [
     {
       name: "Clear App",
-      image: "/gene_portfolio/assets/images/portfolio/img7.webp",
+      image: "/assets/images/portfolio/img7.webp",
       playStoreUrl: "https://play.google.com/store/apps/details?id=com.clearbuildingsolutions.care_app",
       category: "application development"
     },
     {
       name: "Piki Delivery",
-      image: "/gene_portfolio/assets/images/portfolio/img-3.jpg",
+      image: "/assets/images/portfolio/img-3.jpg",
       playStoreUrl: "https://apkpure.com/p/com.pikidelivery.pikideliveryapp",
       category: "application development"
     }

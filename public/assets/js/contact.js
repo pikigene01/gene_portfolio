@@ -25,7 +25,7 @@ $(document).ready(function() {
 
             $("#loader").show();
             $.ajax({
-                url: "gene_portfolio/assets/contact/contact.php",
+                url: "/assets/contact/contact.php",
                 type: "POST",
                 data:  new FormData(this),
                 contentType: false,
